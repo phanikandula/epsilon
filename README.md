@@ -1,3 +1,10 @@
+
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/b4a5bdab-ce8a-415a-b65f-775fa72443cb" width="100%" controls autoplay loop>
+  </video>
+</div>
+
+
 # **Epsilon (ε)**
 
 In mathematics, **ε** represents a small positive quantity. This agent is the **Epsilon** of your workflow: the small, positive bridge that closes the gap between your intention and your code.
