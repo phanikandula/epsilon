@@ -1,0 +1,21 @@
+# Epsilon Data (Sessions, Database, History)
+.epsilon/
+
+# Byte-compiled / optimized / DLL files
+pycache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.ven/
+venv/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
