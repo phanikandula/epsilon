@@ -14,6 +14,20 @@ Epsilon is a minimal, secure, and fully transparent coding harness. Unlike compl
    uv sync  
    uv run agent.py \--id dev-session
 
+### **🌍 Global Access**
+
+To run Epsilon from any directory, create a script named epsilon in your path (e.g., /usr/local/bin/epsilon):
+
+```shell
+#!/bin/bash  
+# Absolute path to your Epsilon installation  
+EPSILON_DIR="/path/to/your/cloned/epsilon"
+
+uv run --project "${EPSILON_DIR}" "${EPSILON_DIR}/agent.py" "$@"
+```
+
+*Note: Update EPSILON\_DIR to your actual installation path and run chmod \+x on the script.*
+
 ## **🛠️ Deep Agent Features**
 
 * **Fuzzy @Mentions**: Type @ to search and inject file contents into your prompt.  
